@@ -1,9 +1,11 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
-
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+<AuthorizeView>
+    <Authorized Context="AuthenticationState">
+        <h1>Start</h1>
+        <h2>Welcome to the Authentication World!</h2>
+    </Authorized>
+    <NotAuthorized>
+        <h2>Please login first.</h2>
+    </NotAuthorized>
+</AuthorizeView>
