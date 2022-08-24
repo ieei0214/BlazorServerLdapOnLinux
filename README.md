@@ -78,10 +78,10 @@ ou=scientists,dc=example,dc=com
 
 ## Screenshot
 ### Login (Username="tesla", Password="password")
-![Login Form](Screenshot/login.jpg?raw=true)
+![Login Form](BlazorServerLdapOnLinux/Screenshot/login.jpg?raw=true)
 
 ### Authentication Success
-![Authentication Success](Screenshot/login.jpg?raw=true)
+![Authentication Success](BlazorServerLdapOnLinux/Screenshot/login.jpg?raw=true)
 
 
 ## Reference
