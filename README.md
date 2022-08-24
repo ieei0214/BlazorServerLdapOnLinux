@@ -81,7 +81,7 @@ ou=scientists,dc=example,dc=com
 ![Login Form](BlazorServerLdapOnLinux/Screenshot/login.jpg?raw=true)
 
 ### Authentication Success
-![Authentication Success](BlazorServerLdapOnLinux/Screenshot/login.jpg?raw=true)
+![Authentication Success](BlazorServerLdapOnLinux/Screenshot/auth.jpg?raw=true)
 
 
 ## Reference
