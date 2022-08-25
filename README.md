@@ -2,7 +2,7 @@
 
 Get one project needs to access the LDAP server doing auth with Blazor Server App. I search the Blazor resources online but all of them are with System.DirectoryServices but it can't work in Linux (get PlatformNotSupportedException)
 
-Found one solution that he Novell LDAP nuget package can run under Linux. So this repo is an example to do LDAP authentication in Blazor Server.
+Found one [solution](README.md#Reference) that he Novell LDAP nuget package can run under Linux. So this repo is an example to do LDAP authentication in Blazor Server.
 
 ## Environment
 - VS 2022
@@ -83,6 +83,15 @@ ou=scientists,dc=example,dc=com
 ### Authentication Success
 ![Authentication Success](BlazorServerLdapOnLinux/Screenshot/auth.jpg?raw=true)
 
+## Docker image
+
+You can run docker image by the following command and then see the demo.
+
+```
+docker run -itd -p 8081:80 ieei/blazorserverldaponlinux
+```
+
+http://localhost:8081/
 
 ## Reference
 
