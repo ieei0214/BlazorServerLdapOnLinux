@@ -23,6 +23,8 @@ builder.Services
 ```
 
 ```csharp
+app.UseAuthentication();
+app.UseAuthorization();
 app.MapControllers();
 ```
 
